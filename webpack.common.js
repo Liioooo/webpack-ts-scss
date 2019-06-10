@@ -19,6 +19,8 @@ module.exports = {
                         loader: "html-loader",
                         options: {
                             minimize: true,
+                            removeComments: false,
+                            attrs: [':data-src']
                         }
                     }
                 ],
